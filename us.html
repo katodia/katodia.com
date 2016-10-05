@@ -1,0 +1,32 @@
+---
+layout: page
+title: Nosotros
+permalink: /nosotros/
+indexable: true
+priority: 10
+class: us-page
+---
+
+<div class="row">
+    {% for member in site.data.members %}
+    <div class="col-sm-6">
+        <div class="card card-block">
+            <img src="{{ member.gravatar }}?s=256" alt="Avatar">
+            <h4 class="card-title text-xs-center">{{ member.name }}</h4>
+            <p class="card-text">{{ member.description | markdownify }}</p>
+            <p class="card-text">
+                {% for tag in member.expertise_areas %}
+                    <span>{{ tag }}</span>
+                {% endfor %}
+            </p>
+            <a href="{{ member.blog }}" class="btn btn-primary" role="button" >Mi blog</a>
+        </div>
+        <div class="card-footer text-muted">
+            {% assign s = member.social %}
+            {% if s.twitter %}
+            
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
