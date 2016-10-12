@@ -1,5 +1,6 @@
 - name: Podcast Manager
-  description: Para la organización
+  description: >
+    Gestión de audios en streaming, para la organización
     de <a href="http://radiopodcastellano.es" >Radio Podcastellano</a>.
   image: podmanager.png
   technologies: 
