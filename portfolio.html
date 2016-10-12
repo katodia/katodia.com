@@ -1,0 +1,48 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+indexable: true
+priority: 20
+class: portfolio-page
+---
+
+{% for p in site.data.projects %}
+<div class="row row-eq-height project" >
+    <!-- Portfolio info -->
+    <div class="col-sm-6 project-info" 
+        itemscope itemtype="http://schema.org/Product" >
+        <h2 itemprop="name" >{{ p.name }}</h2>
+        <!-- Project summary -->
+        <div class="description" >
+            <p>
+            {% if p.description %}
+                {{ p.description }}
+            {% endif %}
+            </p>
+        </div>
+        <!-- Link to organization -->
+        {% if p.organization %}
+            <a href="{{ p.organization }}" role="button" title="Ver" class="btn btn-sm btn-primary" >
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </a>   
+        {% endif %}
+        <!-- Project technologies -->
+        {% if p.technologies %}
+            <div class="technologies" >
+                {% for t in p.technologies %}
+                    <span class="tag-area" itemprop="name" >
+                        {{ t }}
+                    </span>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+    <!-- Portfolio image -->
+    <div class="col-sm-6 project-image" >
+        <img src="{{ site.url | append: '/' }}{{ site.project_assets }}{{ p.image }}" itemprop="image" 
+            alt="{{ p.name }} featured image" title="{{ p.name }}" />
+    </div>
+    <div class="clearfix" ></div>
+</div>
+{% endfor %}

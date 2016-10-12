@@ -1,0 +1,30 @@
+-
+  platform: twitter
+  url: https://twitter.com/
+  icon: twitter
+  title: Check my Twitter profile
+-
+  platform: github
+  url: https://github.com/
+  icon: github
+  title: Check my Github repos
+-
+  platform: gitlab
+  url: https://gitlab.com/
+  icon: gitlab
+  title: Check my gitlab repos
+-
+  platform: livecoding
+  url: https://livecoding.tv/
+  icon: livecoding
+  title: Watch my LiveCoding streamings
+-
+  platform: linkedin
+  url: https://linkedin.com/in/
+  icon: linkedin
+  title: Check my LinkedIn profile
+-
+  platform: email
+  url: "mailto:"
+  icon: email
+  title: "Send me a mail"

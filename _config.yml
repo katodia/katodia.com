@@ -15,15 +15,25 @@
 # in the templates via {{ site.myvariable }}.
 title: katodia
 email: info@katodia.com
+logo: katodia logox32.gif
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://192.168.0.164:4000" # the base hostname & protocol for your site
 twitter_username: katodians
 github_username:  katodia
 
 # Build settings
 markdown: kramdown
 theme: geekyll
+
+web_assets: assets/web/
+post_assets: assets/posts/
+project_assets: assets/projects/
+author_assets: assets/authors/
+
+social:
+  - livecoding: https://livecoding.tv/
+  - twitter: 

@@ -1,0 +1,29 @@
+- name: Podcast Manager
+  description: Para la organización
+    de <a href="http://radiopodcastellano.es" >Radio Podcastellano</a>.
+  image: podmanager.png
+  technologies: 
+    - python
+    - django
+    - mpd
+    - icecast2
+    - sqlite
+- name: HoppStore
+  organization: https://hoppstore.com
+  description: >
+    Tienda virtual de moda y complementos infantiles.
+  image: hoppstore.png
+  technologies: 
+    - php 
+    - prestashop 
+    - e-commerce
+    - mysql
+- name: Esaferal
+  organization: http://esaferal.com
+  description:  >
+    Web e imagen corporativa para empresa del sector de la energía solar y térmica. 
+  image: esaferal.png
+  technologies: 
+    - php 
+    - wordpress
+    - mysql
