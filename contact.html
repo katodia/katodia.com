@@ -4,6 +4,7 @@ title: Contacto
 indexable: true
 priority: 5
 class: contact-pages 
+icon: fa-comment
 ---
 
 <div class="row" >
@@ -14,6 +15,31 @@ class: contact-pages
             <a href="mailto:info@katodia.com?subject=Asunto" >
                 <strong>info@katodia.com</strong>
             </a>
+        </p>
+
+        <p>
+            <form name="contact-form" method="POST" action="https://formspree.io/{{ site.email }}" >
+                <div class="form-group" >
+                    <label for="email" class="sr-only" >Email</label>
+                    <input name="_replyto" placeholder="Tu email" type="email" id="email"
+                        class="form-control" required/>
+                </div>
+                <div class="form-group" >
+                    <label for="subject" class="sr-only" >Asunto</label>
+                    <input name="_subject" placeholder="Asunto" type="text" id="subject" 
+                        class="form-control" required/>
+                </div>    
+                
+                <input name="_format" type="hidden" value="plain" />
+                <input name="_gotcha" type="text" style="display:none" />
+
+                <div class="form-group" >
+                    <textarea name="message" class="form-control" placeholder="Tu mensaje" ></textarea>
+                </div>
+
+                <button type="button" role="button" id="submitter" class="btn btn-primary">Enviar</button>
+                
+            </form>
         </p>
     </div>
 </div>

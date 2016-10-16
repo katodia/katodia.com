@@ -37,3 +37,6 @@ author_assets: assets/authors/
 social:
   - livecoding: https://livecoding.tv/
   - twitter: 
+
+extra_js:
+  - assets/js/contact-form.js
