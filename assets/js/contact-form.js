@@ -1,10 +1,11 @@
 jQuery(document).ready(function () {
+
     $button = jQuery('#submitter'); 
     $button.click(function () {
-        
-        //$button.prop('disabled', true);
+
+        resetAlerts();
+        $button.prop('disabled', true);
         $contactForm = jQuery('form[name="contact-form"]');
-        console.log($contactForm);
 
         var $request = jQuery.ajax({
             url: $contactForm.attr('action'),
@@ -12,16 +13,24 @@ jQuery(document).ready(function () {
             data: $contactForm.serialize(),
             dataType: "json",
             beforeSend: function() {
-			    $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+			    jQuery('.alert-form.alert-info').css({'display': 'block'});
 		    },
         });
 
         $request.done(function (msj) {
-            console.log(msj);
+            resetAlerts();
+            $button.prop('disabled', false);
+            jQuery('.alert-form.alert-success').css({'display': 'block'});
         });
 
         $request.fail(function (msj) {
-            console.log(msj);
+            resetAlerts();
+            $button.prop('disabled', false);
+            jQuery('.alert-form.alert-danger').css({'display': 'block'});
         });
     });
+
+    function resetAlerts () {
+        jQuery('.alert-form').css({'display': 'none'});
+    }
 });

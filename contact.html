@@ -3,21 +3,46 @@ layout: page
 title: Contacto
 indexable: true
 priority: 5
-class: contact-pages 
+class: contact-page 
 icon: fa-comment
 ---
 
 <div class="row" >
     <div class="col-xs-12" >
-        <p>
-            Puedes mandarnos un mensaje a cualquiera de nuestros emails o puedes contactarnos a ambos
-            a través de 
-            <a href="mailto:info@katodia.com?subject=Asunto" >
-                <strong>info@katodia.com</strong>
-            </a>
+        <p class="text-xs-center">
+            ¿Quieres ponerte en contacto con nosotros? Mándanos un mensaje a 
+            <a href="mailto:info@katodia.com?subject=Asunto" ><strong>info@katodia.com</strong></a>, o 
+            simplemente puedes rellenar el formulario de abajo.
         </p>
 
         <p>
+
+            <!-- Alerts -->
+            <div class="alert alert-success  alert-form  alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="fa fa-times" aria-hidden="true" ></i>
+                </button>
+                <strong>¡Enviado!</strong> Intentaremos responderte cuanto antes.
+            </div>
+
+            <div class="alert alert-info alert-form alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="fa fa-cog fa-spin" aria-hidden="true" ></i>
+                </button>
+                <strong>Enviando...</strong>
+            </div>
+
+            <div class="alert alert-danger alert-form alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true" ></i>
+                </button>
+                <strong>Error</strong> Inténtalo de nuevo en unos minutos. Si el error persiste,
+                puedes usar nuestro email: <a href="mailto:info@katodia.com?subject=Asunto" >
+                <strong>info@katodia.com</strong></a>
+            </div>
+
+            <!-- Contact form -->
+
             <form name="contact-form" method="POST" action="https://formspree.io/{{ site.email }}" >
                 <div class="form-group" >
                     <label for="email" class="sr-only" >Email</label>
@@ -37,7 +62,8 @@ icon: fa-comment
                     <textarea name="message" class="form-control" placeholder="Tu mensaje" ></textarea>
                 </div>
 
-                <button type="button" role="button" id="submitter" class="btn btn-primary">Enviar</button>
+                <button type="button" role="button" id="submitter" 
+                        class="btn btn-primary btn-lg" >Enviar</button>
                 
             </form>
         </p>
