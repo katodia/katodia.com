@@ -1,41 +1,39 @@
-- name: Podcast Manager
+- name: Rolemaster Suite
+  status: completed
   description: >
-    Gestión de audios en streaming, para la organización
-    de <a href="//radiopodcastellano.es" target="_blank" >Radio Podcastellano</a>.
-  image: podcastmanager.jpeg
+    Aplicación web para la gestión de partidas del juego de rol 
+    <a href="//ironcrown.com/rolemaster" target="_blank" >Rolemaster</a> de manera
+    cómoda.
+  image: rolemaster.jpeg
   technologies: 
-    - python
-    - django
-    - mpd
-    - icecast2
-    - sqlite
-- name: HoppStore
-  organization: //hoppstore.com
+    - laravel
+    - mysql
+    - jQuery
+- name: Wizard Quest
+  status: WIP
   description: >
-    Tienda virtual de moda y complementos infantiles.
-  image: hoppstore.jpeg
-  technologies: 
-    - php 
-    - prestashop 
-    - e-commerce
-    - mysql
-- name: Esaferal
-  organization: //esaferal.com
-  description:  >
-    Web e imagen corporativa para empresa del sector de la energía solar y térmica. 
-  image: esaferal.jpeg
-  technologies: 
-    - php 
-    - wordpress
-    - mysql
-- name: EffiControl
-  organization: //effiautomation.com
-  description:  >
-    Panel de control web para el sistema de eficiencia energética de la empresa  
-    <a href="//effiautomation.com" target="_blank" >Effiautomation</a>
-  image: effiautomation.jpeg
+    Juego shoot'em up tipo arcade para plataforma web y escritorio.
+  image: wizardquest.gif
+  video: wizardquest.mp4
+  technologies:
+    - libGDX
+    - ECS pattern
+    - HTML5
+- name: NurseCurse
+  status: WIP
+  description: >
+    Juego para Android, clon del <a href="//www.pygame.org/shredwheat/solarwolf/index.shtml" 
+    target="_blank">Solar Wolf </a>
+  image: nursecurse.gif
+  technologies:
+    - libGDX
+    - Android
+- name: Eruditio
+  status: hiatus
+  description: >
+    Sistema gestor de aulas. Concebido para que padres puedan seguir el progreso
+    de sus hijos.
+  image: eruditio.jpeg
   technologies: 
     - laravel 
-    - sqlite3
-    - linux
-    - java
+    - mysql
