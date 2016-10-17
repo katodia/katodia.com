@@ -31,8 +31,9 @@ theme: geekyll
 
 web_assets: assets/web/
 post_assets: assets/posts/
-project_assets: assets/projects/
+portfolio_assets: assets/portfolio/
 author_assets: assets/authors/
+project_assets: assets/projects/
 
 social:
   - livecoding: https://livecoding.tv/
