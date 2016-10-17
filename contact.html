@@ -52,19 +52,21 @@ icon: fa-comment
                 <div class="form-group" >
                     <label for="subject" class="sr-only" >Asunto</label>
                     <input name="_subject" placeholder="Asunto" type="text" id="subject" 
-                        class="form-control" required/>
+                        class="form-control" pattern=".{5,}" required/>
                 </div>    
                 
                 <input name="_format" type="hidden" value="plain" />
                 <input name="_gotcha" type="text" style="display:none" />
 
                 <div class="form-group" >
-                    <textarea name="message" class="form-control" placeholder="Tu mensaje" ></textarea>
+                    <textarea pattern=".{15,}" id="message"
+                        name="message" class="form-control" placeholder="Tu mensaje" required></textarea>
                 </div>
 
                 <button type="button" role="button" id="submitter" 
                         class="btn btn-primary btn-lg" >Enviar</button>
-                
+                        
+                <input type="submit" role="button" style="display:none" ></input>
             </form>
         </p>
     </div>
