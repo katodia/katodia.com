@@ -40,3 +40,4 @@ social:
 
 extra_js:
   - assets/js/contact-form.js
+  - assets/js/anchor-animation.js
