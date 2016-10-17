@@ -1,0 +1,39 @@
+- name: Rolemaster Suite
+  status: completed
+  description: >
+    Aplicación web para la gestión de partidas del juego de rol 
+    <a href="//ironcrown.com" target="_blank" >Rolemaster</a> de manera
+    cómoda.
+  image: rolemaster.jpeg
+  technologies: 
+    - laravel
+    - mysql
+    - jQuery
+- name: Wizard Quest
+  status: WIP
+  description: >
+    Juego shoot'em up tipo arcade para plataforma web y escritorio.
+  image: wizardquest.gif
+  video: wizardquest.mp4
+  technologies:
+    - libGDX
+    - ECS pattern
+    - HTML5
+- name: NurseCurse
+  status: WIP
+  description: >
+    Juego para Android, clon del <a href="//www.pygame.org/shredwheat/solarwolf/index.shtml" 
+    target="_blank">Solar Wolf </a>
+  image: nursecurse.gif
+  technologies:
+    - libGDX
+    - Android
+- name: Eruditio
+  status: hiatus
+  description: >
+    Sistema gestor de aulas. Concebido para que padres puedan seguir el progreso
+    de sus hijos.
+  image: eruditio.jpeg
+  technologies: 
+    - laravel 
+    - mysql
