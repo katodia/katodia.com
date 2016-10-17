@@ -2,7 +2,7 @@
   status: completed
   description: >
     Aplicación web para la gestión de partidas del juego de rol 
-    <a href="//ironcrown.com" target="_blank" >Rolemaster</a> de manera
+    <a href="//ironcrown.com/rolemaster" target="_blank" >Rolemaster</a> de manera
     cómoda.
   image: rolemaster.jpeg
   technologies: 
