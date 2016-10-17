@@ -24,7 +24,8 @@ class: portfolio-page
         </div>
         <!-- Link to organization -->
         {% if p.organization %}
-            <a href="{{ p.organization }}" role="button" title="Ver" class="btn btn-sm btn-primary" >
+            <a href="{{ p.organization }}" target="_blank" role="button" 
+                title="Ver proyecto" class="btn btn-sm btn-primary" >
                 <i class="fa fa-eye" aria-hidden="true"></i>
             </a>   
         {% endif %}
@@ -41,8 +42,11 @@ class: portfolio-page
     </div>
     <!-- Portfolio image -->
     <div class="col-sm-6 project-image" >
-        <img src="{{ site.url | append: '/' }}{{ site.project_assets }}{{ p.image }}" itemprop="image" 
-            alt="{{ p.name }} featured image" title="{{ p.name }}" />
+        {% assign image_url = site.url | append: '/' | append: site.project_assets | append: p.image }} %}
+        <a href="//{{ image_url }}" target="_blank" ><!--
+        --><img src="//{{ image_url }}" itemprop="image" 
+            alt="{{ p.name }} featured image" title="{{ p.name }}" /><!--
+        --></a>       
     </div>
     <div class="clearfix" ></div>
 </div>

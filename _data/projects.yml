@@ -1,8 +1,8 @@
 - name: Podcast Manager
   description: >
     Gestión de audios en streaming, para la organización
-    de <a href="http://radiopodcastellano.es" >Radio Podcastellano</a>.
-  image: podmanager.png
+    de <a href="//radiopodcastellano.es" target="_blank" >Radio Podcastellano</a>.
+  image: podcastmanager.jpeg
   technologies: 
     - python
     - django
@@ -10,21 +10,32 @@
     - icecast2
     - sqlite
 - name: HoppStore
-  organization: https://hoppstore.com
+  organization: //hoppstore.com
   description: >
     Tienda virtual de moda y complementos infantiles.
-  image: hoppstore.png
+  image: hoppstore.jpeg
   technologies: 
     - php 
     - prestashop 
     - e-commerce
     - mysql
 - name: Esaferal
-  organization: http://esaferal.com
+  organization: //esaferal.com
   description:  >
     Web e imagen corporativa para empresa del sector de la energía solar y térmica. 
-  image: esaferal.png
+  image: esaferal.jpeg
   technologies: 
     - php 
     - wordpress
     - mysql
+- name: EffiControl
+  organization: //effiautomation.com
+  description:  >
+    Panel de control web para el sistema de eficiencia energética de la empresa  
+    <a href="//effiautomation.com" target="_blank" >Effiautomation</a>
+  image: effiautomation.jpeg
+  technologies: 
+    - laravel 
+    - sqlite3
+    - linux
+    - java
