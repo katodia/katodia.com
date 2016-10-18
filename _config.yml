@@ -17,13 +17,10 @@ title: katodia
 email: info@katodia.com
 logo: katodia logox32.gif
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Aplicaciones móviles para Android y videojuegos. Desarrollo 
+  web y posicionamiento web SEO y SEM. Nos ubicamos en Ponferrada, León.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "192.168.0.164:4000" # the base hostname & protocol for your site
-twitter_username: katodians
-github_username:  katodia
 
 # Build settings
 markdown: kramdown
@@ -35,36 +32,45 @@ portfolio_assets: assets/portfolio/
 author_assets: assets/authors/
 project_assets: assets/projects/
 
-social:
-  - livecoding: https://livecoding.tv/
-  - twitter: 
-
 extra_js:
   - assets/js/contact-form.js
   - assets/js/anchor-animation.js
 
-member_social:
+social_links:
   - platform: twitter
-    url: https://twitter.com/
+    url: //twitter.com/
     icon: fa fa-twitter
     title: Check my Twitter profile
   - platform: github
-    url: https://github.com/
+    url: //github.com/
     icon: fa fa-github
     title: Check my Github repos
   - platform: gitlab
-    url: https://gitlab.com/
+    url: //gitlab.com/
     icon: fa fa-gitlab
     title: Check my gitlab repos
   - platform: livecoding
-    url: https://livecoding.tv/
+    url: //livecoding.tv/
     icon: fa fa-code
     title: Watch my LiveCoding streamings
   - platform: linkedin
-    url: https://linkedin.com/in/
+    url: //linkedin.com/in/
     icon: fa fa-linkedin
     title: Check my LinkedIn profile
+  - platform: googleplus
+    url: //plus.google.com/
+    icon: fa fa-google-plus-square
+    title:
   - platform: email
     url: "mailto:"
     icon: fa fa-envelope
     title: "Send me a mail"
+
+footer:
+  copyright: Copyright &copy; 2014-2016 katodia. Licensed under terms of <a rel="license" href="https://opensource.org/licenses/MIT">MIT</a>.
+  featuring: Site made with <a href="//jekyllrb.com" target="_blank" >Jekyll</a> and proudly hosted by <a href="//github.com" target="_blank" >Github</a>
+  socials:
+    github: katodia
+    twitter: katodians
+    email: info@katodia.com
+    googleplus: +Katodia-Desarrollo-Aplicaciones
