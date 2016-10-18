@@ -68,7 +68,7 @@ social_links:
 
 footer:
   copyright: Copyright &copy; 2014-2016 katodia. Licensed under terms of <a rel="license" href="https://opensource.org/licenses/MIT">MIT</a>.
-  featuring: Site made with <a href="//jekyllrb.com" target="_blank" >Jekyll</a> and proudly hosted by <a href="//github.com" target="_blank" >Github</a>
+  featuring: Site made with <a href="//jekyllrb.com" target="_blank" >Jekyll</a> and proudly hosted by <a href="//gitlab.com" target="_blank" >Gitlab</a>
   socials:
     github: katodia
     twitter: katodians
