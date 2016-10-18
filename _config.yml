@@ -42,3 +42,29 @@ social:
 extra_js:
   - assets/js/contact-form.js
   - assets/js/anchor-animation.js
+
+member_social:
+  - platform: twitter
+    url: https://twitter.com/
+    icon: fa fa-twitter
+    title: Check my Twitter profile
+  - platform: github
+    url: https://github.com/
+    icon: fa fa-github
+    title: Check my Github repos
+  - platform: gitlab
+    url: https://gitlab.com/
+    icon: fa fa-gitlab
+    title: Check my gitlab repos
+  - platform: livecoding
+    url: https://livecoding.tv/
+    icon: fa fa-code
+    title: Watch my LiveCoding streamings
+  - platform: linkedin
+    url: https://linkedin.com/in/
+    icon: fa fa-linkedin
+    title: Check my LinkedIn profile
+  - platform: email
+    url: "mailto:"
+    icon: fa fa-envelope
+    title: "Send me a mail"
