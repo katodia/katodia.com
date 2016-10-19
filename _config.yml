@@ -25,6 +25,9 @@ meta:
   generator: Jekyll 3.2.1
   keywords: desarrollo, aplicaciones, web, android, videojuegos, wordpress, Ponferrada
 
+# Google Analytics
+google_analytics: UA-59457770-1
+
 # Build settings
 markdown: kramdown
 theme: geekyll
