@@ -1,14 +1,10 @@
-PATH
-  remote: ~/Projects/geekyll
-  specs:
-    geekyll (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     colorator (1.1.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
+    geekyll (0.0.9)
     jekyll (3.2.1)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -43,7 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  geekyll!
+  geekyll (~> 0.0.9)
   jekyll (= 3.2.1)
   liquefy (~> 0.1.2)
 
