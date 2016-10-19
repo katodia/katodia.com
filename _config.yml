@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Aplicaciones móviles para Android y videojuegos. Desarrollo 
   web y posicionamiento web SEO y SEM. Nos ubicamos en Ponferrada, León.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "katodia.gilab.io" # the base hostname & protocol for your site
+url: "katodia.gitlab.io" # the base hostname & protocol for your site
 meta: 
   generator: Jekyll 3.2.1
   keywords: desarrollo, aplicaciones, web, android, videojuegos, wordpress, Ponferrada
