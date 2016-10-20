@@ -1,7 +1,7 @@
 - name: Rubén
   email: ruboslav@gmail.com
   avatar: img/members/ruben.jpeg
-  gravatar: https://s.gravatar.com/avatar/021dbb9a2eb8469814da90e8e2ec40f2 
+  gravatar: s.gravatar.com/avatar/021dbb9a2eb8469814da90e8e2ec40f2 
   social: 
     github: rubendelblanco
     gitlab: rubendelblanco
@@ -10,7 +10,7 @@
     linkedin: ruben-del-blanco-rey
     email: rdelblanco@katodia.com
   main_position: web developer
-  blog: https://rubendelblanco.github.io
+  blog: //rubendelblanco.github.io
   description: >
     Junior web developer, oneliner sysadmin and game maker in the making.
   expertise_areas: 
@@ -24,7 +24,7 @@
 - name: Marcos
   email: marsanben92@hotmail.com
   avatar: img/members/marcos.jpeg
-  gravatar: http://www.gravatar.com/avatar/1c4372386390be969a28517932998a5e 
+  gravatar: //www.gravatar.com/avatar/1c4372386390be969a28517932998a5e 
   social: 
     github: sonirico
     gitlab: sonirico
@@ -32,7 +32,7 @@
     linkedin: marcos-san
     email: msanchez@katodia.com
   main_position: hacker 
-  blog: https://sonirico.github.io
+  blog: //sonirico.github.io
   description: >
     Junior web developer, oneliner sysadmin and game maker in the making.
   expertise_areas: 
