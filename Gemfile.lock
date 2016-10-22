@@ -1,7 +1,7 @@
 PATH
   remote: ../geekyll
   specs:
-    geekyll (0.0.9)
+    geekyll (0.1.0)
 
 GEM
   remote: https://rubygems.org/

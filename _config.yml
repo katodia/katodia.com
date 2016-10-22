@@ -37,6 +37,9 @@ portfolio_assets: assets/portfolio/
 author_assets: assets/authors/
 project_assets: assets/projects/
 
+navigation:
+  default: inicio
+
 extra_js:
   - assets/js/contact-form.js
   - assets/js/anchor-animation.js

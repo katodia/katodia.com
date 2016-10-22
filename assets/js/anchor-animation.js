@@ -1,7 +1,7 @@
 // Anchor animation
 
 // Bootstrap 4 breakpoints   xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px
-const xs = 0, sm = 544, md = 768, lg = 992, xl = 1200;
+/*const xs = 0, sm = 544, md = 768, lg = 992, xl = 1200;
 const breakpoints = [xl, lg, md, sm, xs];
 var currentOffset = 0;
 
@@ -35,6 +35,35 @@ jQuery(document).ready(function () {
     jQuery('body').scrollspy({
         target: '#navbar-header',
         offset: currentOffset + parseInt(jQuery('#navbar-header').css('line-height'))
+        // Navbar's height must be added'
+    });
+});*/
+jQuery(document).ready(function(){
+
+    // Scroll handling
+
+    $root = jQuery('html, body');
+
+	jQuery('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+        console.log(this.hash);
+        
+	    var target = this.hash,
+	    $target = jQuery(target);
+
+	    jQuery('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+
+    // Scrollspy
+
+    // scrollspy via javascript
+    jQuery('body').scrollspy({
+        target: '#navbar-header'
         // Navbar's height must be added'
     });
 });
