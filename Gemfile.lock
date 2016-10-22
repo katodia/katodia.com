@@ -1,5 +1,6 @@
-PATH
-  remote: ../geekyll
+GIT
+  remote: https://github.com/sonirico/geekyll.git
+  revision: 6742fdf9ece902e9beadf51527cb72e2c2b6fd07
   specs:
     geekyll (0.1.0)
 
